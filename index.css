@@ -52,9 +52,10 @@ body{
     height: 100px;
     animation-name: myAnimation; /*can be any name*/
     animation-duration: 5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 2;
     /* animation-delay: 2s; */
-   animation-direction: alternate;
+   /* animation-direction: alternate; */
+   animation-fill-mode: forwards;
     
 }
 
